@@ -1,14 +1,14 @@
 /**
  * Module Imports
  */
-const { Client, Collection } = require("discord.js");
+const { Client, Collection } = require("dis");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const { TOKEN, PREFIX } = require("./util/EvobotUtil");
 
 const client = new Client({ disableMentions: "everyone" });
 
-client.login(MTAyNjk1MjE1MjEwMDM4MDc4Mw.GvIKPy.FQmwlZmKv0ILiLyU9j1h2bPVCg98Vtd4tcN7P4);
+client.login(MTAyNjk1MjE1MjEwMDM4MDc4Mw.GmkFZM.0CLdM6K9MGDC0bGMVnX_OPqFOu7OKZfxX_qfiE);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
