@@ -8,7 +8,7 @@ const { TOKEN, PREFIX } = require("./util/EvobotUtil");
 
 const client = new Client({ disableMentions: "everyone" });
 
-client.login(TOKEN);
+client.login(MTAyNjk1MjE1MjEwMDM4MDc4Mw.Gyoc_A.c53A_gqPEq3iegOZrRpyaF6lAZ0B52nmgQlBJY);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
